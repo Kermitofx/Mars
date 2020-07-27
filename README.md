@@ -1,4 +1,4 @@
-# DeezloaderAn0n_bot
+# Deezloader @Mars
 This project has been created for integrate deezloader library in a Telegram bot.
 
 # Disclaimer
@@ -9,7 +9,7 @@ This project has been created for integrate deezloader library in a Telegram bot
 
 ## Installation
 	apt install ffmpeg
-	git clone https://github.com/An0nimia/DeezloaderAn0n_bot.git
+	git clone https://github.com/AmineSoukara/Mars.git
 	pip3 install -r requirements.txt
 	chmod +x dwsongs-normal.py && ./dwsongs-normal.py
 
@@ -29,7 +29,7 @@ This project has been created for integrate deezloader library in a Telegram bot
 	key = trnsl.1.1.20181114T193428Z.ec0fb3fb93e116c0.24b2ccfe2d150324e23a5571760e9a827d953003
 
 	[bot_info]
-	version = 2.0
-	creator = An0nimia
-	donation = https://www.paypal.me/An0nimia
-	group = https://t.me/DeezloaderRMX_group
+	Version = 1.7
+	Creator = AmineSoukara
+	Donation = https://www.paypal.me/AmineSoukara
+	Group = https://t.me/DamienHelp
