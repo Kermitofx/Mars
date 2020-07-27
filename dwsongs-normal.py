@@ -347,7 +347,7 @@ def track(link, chat_id, quality):
 
 				youtube = True
 			except:
-				sendMessage(chat_id, "Sorry I cannot download this song %s :(" % link)
+				sendMessage(chat_id, "Sorry I Cannot Download This Song %s :(" % link)
 				return
 
 		image = get_image(image)
@@ -775,7 +775,7 @@ def Link(link, chat_id, quality, message_id):
 		logging.error(link)
 
 		sendMessage(
-			chat_id, "OPS :( Something went wrong please send to @An0nimia this link: {} {}, if this happens again".format(link, quality)
+			chat_id, "OPS :( Something Went Wrong Please Send To @AmineSoukara This Link: {} {}, if this happens again".format(link, quality)
 		)
 
 	if done == 1:
@@ -879,7 +879,7 @@ def Audio(audio, chat_id):
 
 				image = url['album']['cover_xl']
 			except KeyError:
-				sendMessage(chat_id, "Sorry I can't Shazam the track :(")
+				sendMessage(chat_id, "Sorry I Can't Shazam The Track 💔")
 				return
 
 	keyboard = [
@@ -1468,7 +1468,7 @@ def menu(update, context):
 		]
 
 		sendMessage(
-			chat_id, "Choose what you prefer",
+			chat_id, "💬 Choose What You Prefer",
 			reply_markup = InlineKeyboardMarkup(keyboard)
 		)
 
@@ -1610,7 +1610,7 @@ try:
 	else:
 		raise KeyboardInterrupt
 
-	print("Bot started")
+	print("✅ Bot Started")
 
 	while True:
 		sleep(1)
