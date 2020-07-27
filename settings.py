@@ -28,15 +28,15 @@ send_image_track_query = "🎧 Track: %s \n👤 Artist: %s \n💽 Album: %s \n�
 send_image_album_query = "💽 Album: %s \n👤 Artist: %s \n📅 Date: %s \n🎧 Tracks amount: %d"
 send_image_artist_query = "👤 Artist: %s \n💽 Album numbers: %d \n👥 Fans on Deezer: %d"
 tags_query = "💽 Album: %s\n📅 Date: %s\n📀 Label: %s\n🎵 Genre: %s"
-info_msg = "🔺 Version: %s\n🔻 Name: @%s\n✒️ Creator: @%s\n💵 Donation: %s\n📣 Forum: %s\n👥 Users: %d\n⬇️ Total downloads: %d"
+info_msg = "🌍 Version: %s\n💬 Name: @%s\n✒️ Creator: @%s\n💵 Donation: %s\n📣 Forum: %s\n👥 Users: %d\n📊 Total downloads: %d"
 send_image_playlist_query = "📅 Creation: %s \n👤 User: %s \n🎧 Tracks amount: %d"
 insert_query = "INSERT INTO DWSONGS (id, query, quality) values ('%s', '%s', '%s')"
 where_query = "SELECT query FROM DWSONGS WHERE id = '{}' and quality = '{}'"
 user_exist = "SELECT chat_id FROM CHAT_ID where chat_id = '%d'"
 share_message = "tg://msg?text=Start @%s For Download All The Songs Which You Want ❤" % bot_name
 start_message = "Welcome To @%s \nPress '/' To Get Commands List" % bot_name
-not_supported_links = "Sorry :( The Bot Doesn't Support This Link %s 🙄"
-rate_link = "https://t.me/BotsArchive/298"
+not_supported_links = "Sorry 😥 The Bot Doesn't Support This Link %s 🙄"
+rate_link = "https://t.me/HelpBdarija/21"
 end_message = "FINISHED ❤ Rate Me Here %s" % rate_link
 
 help_message = (
