@@ -1,4 +1,4 @@
-# Deezloader @Mars
+# @Mars
 This project has been created for integrate deezloader library in a Telegram bot.
 
 # Disclaimer
@@ -32,4 +32,4 @@ This project has been created for integrate deezloader library in a Telegram bot
 	Version = 1.7
 	Creator = AmineSoukara
 	Donation = https://www.paypal.me/AmineSoukara
-	Group = https://t.me/DamienHelp
+	Group = @DamienHelp
