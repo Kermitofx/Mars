@@ -1,19 +1,31 @@
-# @Mars
-This project has been created for integrate deezloader library in a Telegram bot.
+# Ｍａｒｓ
+This Project Has Been Created For integrate Deezloader Library in a Telegram Bot.
 
-# Disclaimer
+[![Mars](https://telegra.ph/file/d04f98809ff3079f17bcd.jpg )](https://telegram.dog/MarsRobot)
 
-- I am not responsible for the usage of this program by other people.
-- I do not recommend you doing this illegally or against Deezer's terms of service.
-- This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-## Installation
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+
+## 👨‍💻 [Damien Soukara™](https://t.me/AmineSoukara)
+
+### For Any Query Or Want To Know How it Works Join Group And Channel 
+
+<a href="https://t.me/HelpBdarija"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/DamienHelp"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+# ℹ Disclaimer
+
+- I'm Not Responsible For The Usage Of This Program By Other People.
+- I Do Not Recommend You Doing This illegally Or Against Deezer's Terms Of Service.
+- This Project is Licensed Under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+## ⚙ Installation
 	apt install ffmpeg
 	git clone https://github.com/AmineSoukara/Mars.git
 	pip3 install -r requirements.txt
 	chmod +x dwsongs-normal.py && ./dwsongs-normal.py
 
-## Settings
+## ⚙ Settings
 	[login]
 	token = deezer arl cookie #To grab arl cookie by press F12, then go to Application -> Cookies and copy the value
 	
