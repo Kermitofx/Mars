@@ -115,27 +115,27 @@ queries = {
 	},
 
 	"s_art": {
-		"query": "Artist: %s",
+		"query": "art: %s",
 		"text": "Search By Artist 👤"
 	},
 
 	"s_alb": {
-		"query": "Album: %s",
+		"query": "alb: %s",
 		"text": "Search By Album 💽"
 	},
 
 	"s_pla": {
-		"query": "Playlist: %s",
+		"query": "pla: %s",
 		"text": "Search Playlist 📂"
 	},
 
 	"s_lbl": {
-		"query": "Label: %s",
+		"query": "llb: %s",
 		"text": "Search label 📀"
 	},
 
 	"s_trk": {
-		"query": "Track: %s",
+		"query": "trk: %s",
 		"text": "Search track 🎧"
 	},
 
