@@ -13,8 +13,8 @@ telegram_audio_api_limit = 50000000
 db_file = "dwsongs.db"
 loc_dir = "Songs/"
 ini_file = "settings.ini"
-photo = "example.png"
-bot_name = "DeezloaderAn0n_bot"
+photo = "https://telegra.ph/file/8d8723bde601369520302.jpg"
+bot_name = "MarsRobot"
 api_chart = "https://api.deezer.com/chart"
 api_artist = "https://api.deezer.com/artist/%s"
 api_type1 = "https://api.deezer.com/search/{}/?q={}"
@@ -24,34 +24,34 @@ services_supported = ["spotify", "deezer"]
 comandss = ["start", "settings", "info", "shazam", "help"]
 settingss = ["quality", "tongue"]
 qualities = ["FLAC", "MP3_320", "MP3_256", "MP3_128"]
-send_image_track_query = "🎧 Track: %s \n👤 Artist: %s \n💽 Album: %s \n📅 Date: %s"
-send_image_album_query = "💽 Album: %s \n👤 Artist: %s \n📅 Date: %s \n🎧 Tracks amount: %d"
-send_image_artist_query = "👤 Artist: %s \n💽 Album numbers: %d \n👥 Fans on Deezer: %d"
+send_image_track_query = "🎧 Track: %s \n👤 Artist: %s \n💽 Album: %s \n📅 Date: %s \n🤖 Robot: @MarsRobot"
+send_image_album_query = "💽 Album: %s \n👤 Artist: %s \n📅 Date: %s \n🎧 Tracks amount: %d \n🤖 Robot: @MarsRobot"
+send_image_artist_query = "👤 Artist: %s \n💽 Album numbers: %d \n👥 Fans on Deezer: %d \n🤖 Robot: @MarsRobot"
 tags_query = "💽 Album: %s\n📅 Date: %s\n📀 Label: %s\n🎵 Genre: %s"
-info_msg = "🔺 Version: %s\n🔻 Name: @%s\n✒️ Creator: @%s\n💵 Donation: %s\n📣 Forum: %s\n👥 Users: %d\n⬇️ Total downloads: %d"
-send_image_playlist_query = "📅 Creation: %s \n👤 User: %s \n🎧 Tracks amount: %d"
+info_msg = "🌍 Version: %s\n💬 Name: @%s\n✒️ Creator: @%s\n💵 Donation: %s\n📣 Forum: %s\n👥 Users: %d\n📊 Total downloads: %d"
+send_image_playlist_query = "📅 Creation: %s \n👤 User: %s \n🎧 Tracks amount: %d \n🤖 Robot: @MarsRobot"
 insert_query = "INSERT INTO DWSONGS (id, query, quality) values ('%s', '%s', '%s')"
 where_query = "SELECT query FROM DWSONGS WHERE id = '{}' and quality = '{}'"
 user_exist = "SELECT chat_id FROM CHAT_ID where chat_id = '%d'"
-share_message = "tg://msg?text=Start @%s for download all the songs which you want ;)" % bot_name
-start_message = "Welcome to @%s \nPress '/' to get commands list" % bot_name
-not_supported_links = "Sorry :( The bot doesn't support this link %s :("
-rate_link = "https://t.me/BotsArchive/298"
-end_message = "FINISHED :) Rate me here %s" % rate_link
+share_message = "tg://msg?text=Start @%s For Download All The Songs Which You Want ❤" % bot_name
+start_message = "Welcome To @%s \nPress '/' To Get Commands List" % bot_name
+not_supported_links = "Sorry 😥 The Bot Doesn't Support This Link %s 🙄"
+rate_link = "https://t.me/HelpBdarija/21"
+end_message = "FINISHED ❤ Rate Me Here %s" % rate_link
 
 help_message = (
-	"/start: Start the bot" +
-	"\n\n/settings: Manage settings" +
-	"\n\n/shazam: Identify a song by a voice or audio message (You can do without calling this command, just send the media)" +
-	"\n\n/help: Show this message" +
+	"/start: Start The Bot" +
+	"\n\n/settings: Manage Settings" +
+	"\n\n/shazam: Identify A Song By A Voice Or Audio Message (You Can Do Without Calling This Command, Just Send The Media)" +
+	"\n\n/help: Show This Message" +
 	"\n\n" +
-	"Just send a spotify or deezer link to download, or type what you are looking for"
+	"Just Send A Spotify Or Deezer Link To Download, Or Type What You Are Looking For"
 )
 
 end_keyboard = [
 	[
 		InlineKeyboardButton(
-			"SHARE",
+			"🔥 SHARE 🔥",
 			url = share_message
 		)
 	]
@@ -75,7 +75,7 @@ qualities_keyboard = [
 first_time_keyboard = [
 	[
 		InlineKeyboardButton(
-			"✅",
+			"✅ START ✅",
 			url = "t.me/%s?start" % bot_name
 		)
 	]
@@ -116,21 +116,21 @@ queries = {
 
 	"s_art": {
 		"query": "art: %s",
-		"text": "Search by artist 👤"
+		"text": "Search By Artist 👤"
 	},
 
 	"s_alb": {
 		"query": "alb: %s",
-		"text": "Search by album 💽"
+		"text": "Search By Album 💽"
 	},
 
 	"s_pla": {
 		"query": "pla: %s",
-		"text": "Search playlist 📂"
+		"text": "Search Playlist 📂"
 	},
 
 	"s_lbl": {
-		"query": "lbl: %s",
+		"query": "llb: %s",
 		"text": "Search label 📀"
 	},
 
@@ -141,6 +141,6 @@ queries = {
 
 	"s_": {
 		"query": "%s",
-		"text": "Global search 📊"
+		"text": "Global Search 📊"
 	}
 }
