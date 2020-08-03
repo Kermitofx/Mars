@@ -775,7 +775,7 @@ def Link(link, chat_id, quality, message_id):
 		logging.error(link)
 
 		sendMessage(
-			chat_id, "OPS :( Something went wrong please send to @An0nimia this link: {} {}, if this happens again".format(link, quality)
+			chat_id, "OPS :( Something went wrong please send to @AmineSoukara this link: {} {}, if this happens again".format(link, quality)
 		)
 
 	if done == 1:
