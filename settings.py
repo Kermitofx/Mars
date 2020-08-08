@@ -13,7 +13,7 @@ telegram_audio_api_limit = 50000000
 db_file = "dwsongs.db"
 loc_dir = "Songs/"
 ini_file = "settings.ini"
-photo = "https://media1.giphy.com/media/l0MYB89UFsVqLY5oc/200.gif"
+photo = "https://i.giphy.com/media/l0MYB89UFsVqLY5oc/200.gif"
 bot_name = "MarsRobot"
 api_chart = "https://api.deezer.com/chart"
 api_artist = "https://api.deezer.com/artist/%s"
@@ -36,16 +36,16 @@ user_exist = "SELECT chat_id FROM CHAT_ID where chat_id = '%d'"
 share_message = "tg://msg?text=Start @%s For Download All The Songs Which You Want ❤" % bot_name
 start_message = "Welcome To @%s \nPress '/' To Get Commands List" % bot_name
 not_supported_links = "Sorry 😥 The Bot Doesn't Support This Link %s 🙄"
-rate_link = "https://t.me/HelpBdarija/21"
+rate_link = "https://t.me/HelpBdarija/24"
 end_message = "FINISHED ❤ Rate Me Here %s" % rate_link
 
 help_message = (
-	"/start: Start The Bot" +
-	"\n\n/settings: Manage Settings" +
-	"\n\n/shazam: Identify A Song By A Voice Or Audio Message (You Can Do Without Calling This Command, Just Send The Media)" +
-	"\n\n/help: Show This Message" +
+	"/Start: Start The Bot" +
+	"\n\n/Settings: Manage Settings" +
+	"\n\n/Shazam: Identify A Song By A Voice Or Audio Message (You Can Do Without Calling This Command, Just Send The Media)" +
+	"\n\n/Help: Show This Message" +
 	"\n\n" +
-	"Just Send A Spotify Or Deezer Link To Download, Or Type What You Are Looking For"
+	"💬 Just Send A Spotify Or Deezer Link To Download, Or Type What You Are Looking For"
 )
 
 end_keyboard = [
